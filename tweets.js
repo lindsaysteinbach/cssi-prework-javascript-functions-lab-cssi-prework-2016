@@ -7,8 +7,7 @@
 //==============================================================================
 // Given a string, return the number of characters in that string
 function countChars(userString) {
-  //your code here
-  //don't forget to return the number of characters (use return!)
+  return userString.length;
 }
 
 //==============================================================================
@@ -16,12 +15,21 @@ function countChars(userString) {
 //==============================================================================
 //Given a string, add " #yolo" to the end of that string
 
+function addHashtag(userString) {
+  return (userString + ' #yolo');
+}
+
 //==============================================================================
 
 //==============================================================================
 // #2 - String Methods: excitedTweet
 //==============================================================================
 //Given a string, add " #yolo" to the end of that string
+
+function excitedTweet(userString) {
+  var caps = userString.toUpperCase();
+  return (caps + "!!!");
+}
 
 //==============================================================================
 
